@@ -3,13 +3,9 @@
   "version": "1.0.0",
   "main": "src/server.js",
   "scripts": {
-    "dev": "nodemon",
-    "devbug": "nodemon --inspect"
+    "dev": "nodemon src/server.js",
+    "devbug": "nodemon --inspect src/server.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
   "dependencies": {
     "express": "^4.21.0",
     "pg": "^8.13.0",
